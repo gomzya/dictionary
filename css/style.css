@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgreen
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    display: block;
+    border: rgb(0, 170, 70) 5px inset;
+    padding: 7px;
+    margin: 30px;
+    border-radius: 10px
+}
+
+.nav-link:hover {
+ background-color: rgb(0, 170, 70);   
+}
+
+h1{
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;  
+    text-align: center;
+}
+
+h1::before { 
+    content:  url('https://s1.hostingkartinok.com/uploads/images/2022/04/21e08103191077a6f45238b1cdf696a9.png');
+    left: 0px;
+    width: 100px; 
+    height: 100px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(0, 170, 70);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: rgb(0, 170, 70);
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(0, 255, 100);
+}
+
+
+h2:hover {
+    color: rgb(0, 170, 70);
+}
